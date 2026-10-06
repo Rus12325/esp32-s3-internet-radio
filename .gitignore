@@ -1,0 +1,11 @@
+# PlatformIO
+.pio/
+.vscode/
+.idea/
+
+# Local secrets
+src/secrets.h
+
+# Editors / OS
+*.swp
+.DS_Store
