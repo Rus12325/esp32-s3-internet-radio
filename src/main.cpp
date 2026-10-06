@@ -148,7 +148,7 @@ void loop() {
         }
     }
     if (pAAC && pAAC->isRunning()) {
-        if (!aacGen->loop()) {
+        if (!pAAC->loop()) {
             Serial.println("[!] AAC stream ended");
             pAAC = nullptr;
         }
